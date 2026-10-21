@@ -1,0 +1,145 @@
+{
+  "prepared": "2026-10-21",
+  "source_export": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262",
+  "primary_source": "Active worksheet questions in instructor-supplied TeX",
+  "questions": [
+    {
+      "id": "2-1.1",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-1.tex",
+      "source_question": 1,
+      "statement_sha256": "901189a71082dee9d7ce9943953e12d1939157205a47ca0193e9f1d455f4697b",
+      "optional": false
+    },
+    {
+      "id": "2-1.2",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-1.tex",
+      "source_question": 2,
+      "statement_sha256": "143c9ddbe189bbda0926c9fb0b8dcffbeb5b76e25e45a9dceea5db129cef6b09",
+      "optional": false
+    },
+    {
+      "id": "2-1.3",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-1.tex",
+      "source_question": 3,
+      "statement_sha256": "e073e21b26516cd7a3359da6326b6bbb9e676b6791a3926736d2c95a7a52b882",
+      "optional": false
+    },
+    {
+      "id": "2-1.4",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-1.tex",
+      "source_question": 4,
+      "statement_sha256": "48065578d21263fe6f1256946eb3e88ff198f7aed8702c48f0b83b2d0449bc5e",
+      "optional": false
+    },
+    {
+      "id": "2-2.1",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-2.tex",
+      "source_question": 1,
+      "statement_sha256": "8a834c064c246a7e66fcf417b69a96161ca7b15795d8e79af732b2b1f51edf25",
+      "optional": false
+    },
+    {
+      "id": "2-2.2",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-2.tex",
+      "source_question": 2,
+      "statement_sha256": "d1004f4ea842baf4ed85bbb7a8678081dd8e8720fec8ee35259910252aa43148",
+      "optional": false
+    },
+    {
+      "id": "2-2.3",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-2.tex",
+      "source_question": 3,
+      "statement_sha256": "bc870e00dcda5a2f9c76a3e0d9a35a66fae90667372388b8afb774f145859c9d",
+      "optional": false
+    },
+    {
+      "id": "2-3.1",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-3.tex",
+      "source_question": 1,
+      "statement_sha256": "4f8d7aa87fc5b5b161071a3eb6f96db403eaf6ac1f6d2d66c751254117267f86",
+      "optional": false
+    },
+    {
+      "id": "2-3.2",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-3.tex",
+      "source_question": 2,
+      "statement_sha256": "9aae0ecb4361b29a4db622a688bb375907fc1c680476fe7730b4690724d5720c",
+      "optional": false
+    },
+    {
+      "id": "2-3.3",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-3.tex",
+      "source_question": 3,
+      "statement_sha256": "a08fcf7394cab23df483da965c7300a3693fda5ebd6d5549600625af9b9e68d0",
+      "optional": true
+    },
+    {
+      "id": "2-4.1",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-4.tex",
+      "source_question": 1,
+      "statement_sha256": "92efaa6d59b790c5d2f0e83a54906c06c3f44b93faccb64d6a0b890f24b2ba9b",
+      "optional": false
+    },
+    {
+      "id": "2-4.2",
+      "source": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-4.tex",
+      "source_question": 2,
+      "statement_sha256": "255d2273c6a30d5cb2d8e3bc570d6b64e343255708884fcaacb72e0df4ae994e",
+      "optional": false
+    }
+  ],
+  "sources": [
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-1.tex",
+      "sha256": "303309207629b84586b5812801f853c3ab1e51a8c3c28f2c5e6591cccf5e1b57",
+      "question_count": 4
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets/lec2-1work.pdf",
+      "sha256": "6fdcb7c647a8dbd0f13b7d512e75ea027736c27d7246ab8fec436d7d0734d529"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-2.tex",
+      "sha256": "7da737b188adbea790f58e0b323af63b3438a34f46741a8055037c65d9914695",
+      "question_count": 3
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets/lec2-2work.pdf",
+      "sha256": "e359822504415876e62bafffd5507d19e30b1d8a2f5fac42a4281142a57f3844"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-3.tex",
+      "sha256": "714ff9b7f0c0798808f0944059e96c3326fce61a117fdcf7030bf09317beef12",
+      "question_count": 3
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets/lec2-3work.pdf",
+      "sha256": "ffbec0ea8f631d98887464cb81d2c3327e1078e0b4dda4051992a198661c59cf"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec2-4.tex",
+      "sha256": "e752aa2ca206d8fa84ceace2f7bb2181d5d1c69f0579d9e01bde5322c608653e",
+      "question_count": 2
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets/lec2-4work.pdf",
+      "sha256": "a72de3702d978c5c24f55aa07f519e04195b1dddb6bcefac0107afa9277ccc96"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets_tex/lec1.tex",
+      "sha256": "67bd02ca164cca530d0a5d62fe32240ac5283d308e6e45d9a597e4cbe74c70fa"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/worksheets/lec1work.pdf",
+      "sha256": "85b2c9beb92f4ca7577f41afda8948953510df00407f18a916c97da008eeed91"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/handouts/handout_ols.pdf",
+      "sha256": "05acff8cf1a89b530aa82bc03f7cf23054edc5c98693c0972ba48411d2660f7c"
+    },
+    {
+      "path": "Political-Methodology-I-Regression-2026-Oct-21_18-29-52-262/viewer/files/slides/lec2_1_handout.pdf",
+      "sha256": "b69f7ea97480c02c23ba551e17a796cd1ffcb9f7957c339258f6e8e5de944b1f"
+    }
+  ]
+}

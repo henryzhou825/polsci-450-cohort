@@ -1,0 +1,325 @@
+\documentclass[11pt,letterpaper]{article}
+% Instructor-authored questions and hints: Yiqing Xu, POLISCI 450A, Fall 2026.
+% Included for public group collaboration with instructor authorization confirmed
+% by the repository owner on 2026-10-21. See LICENSE.md for the scope of reuse.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\setlength{\headheight}{14pt}
+\setlist{itemsep=0.5em,topsep=0.4em}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\E}{\mathbb{E}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Fall 2026}
+\fancyhead[R]{POLISCI 450A: Cohort Worksheets}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+% Replace the blank space inside each groupanswer environment with the group's work.
+% Credit contributors and note any unresolved disagreement in the relevant answer.
+\newenvironment{groupanswer}
+  {\par\smallskip\noindent\textit{Group answer.}\par\nopagebreak\smallskip}
+  {\par\medskip}
+
+\begin{document}
+\begin{center}
+{\LARGE Worksheet Questions}\par
+\smallskip
+Shared answer workbook
+\par\smallskip
+{\small Instructor questions: Yiqing Xu}
+\end{center}
+
+\section*{Lecture 2-1: Point Estimation}
+
+{\small Source: \texttt{lec2-1.tex}.}
+
+
+\textit{Setup from the point-estimation lecture handout (printed slides 5 and 15).}
+Let $Y_1,\ldots,Y_n$ be i.i.d. with $E[Y_i]=\mu$ and $\Var(Y_i)=\sigma^2$.
+The four candidate estimators referred to below are
+\[
+\hat\mu_1=Y_1,\qquad
+\hat\mu_2=4,\qquad
+\hat\mu_3=\frac{1}{n}\sum_{i=1}^n Y_i,\qquad
+\hat\mu_4=\frac{1}{n+5}\sum_{i=1}^n Y_i.
+\]
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-1.1}
+
+\label{q:lec2-1-1}
+
+% BEGIN QUESTION 2-1.1
+
+Which of $\hat\mu_{1}, \hat\mu_{2}, \hat\mu_{3}, \hat\mu_{4}$ are unbiased? Show your work.
+
+% END QUESTION 2-1.1
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-1.2}
+
+\label{q:lec2-1-2}
+
+% BEGIN QUESTION 2-1.2
+
+Derive the variances of $\hat\mu_{1}, \hat\mu_{2}, \hat\mu_{3}, \hat\mu_{4}$. Show your work. What do you conclude?
+
+% END QUESTION 2-1.2
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-1.3}
+
+\label{q:lec2-1-3}
+
+% BEGIN QUESTION 2-1.3
+
+Prove: $MSE(\hat{\theta}) = Var(\hat{\theta}) + \text{Bias}(\hat{\theta})^2.$
+
+% END QUESTION 2-1.3
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-1.4}
+
+\label{q:lec2-1-4}
+
+% BEGIN QUESTION 2-1.4
+
+Derive $MSE(\hat\mu_{1}), MSE(\hat\mu_{2}), MSE(\hat\mu_{3}), MSE(\hat\mu_{4})$
+
+% END QUESTION 2-1.4
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\clearpage
+
+\section*{Lecture 2-2: Interval Estimation}
+
+{\small Source: \texttt{lec2-2.tex}.}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-2.1}
+
+\label{q:lec2-2-1}
+
+% BEGIN QUESTION 2-2.1
+
+(Two variance estimators) Define
+$S_{0n}^2=\frac{1}{n}\sum_{i=1}^n (X_i-\overline{X}_n)^2$ and
+$S_{1n}^2=\frac{1}{n-1}\sum_{i=1}^n (X_i-\overline{X}_n)^2$. Show:
+\begin{itemize}
+    \item[i)] $E[S_{0n}^2]=\frac{n-1}{n}\sigma^2$ and $E[S_{1n}^2]=\sigma^2$.
+    \item[ii)] Both estimators are consistent. (Hint: write $S_{0n}^2=\frac{1}{n}\sum_{i=1}^n(X_i-\mu)^2-(\overline{X}_n-\mu)^2$ and apply the WLLN to each term.)
+\end{itemize}
+
+% END QUESTION 2-2.1
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-2.2}
+
+\label{q:lec2-2-2}
+
+% BEGIN QUESTION 2-2.2
+
+($t$ statistic) With unknown $\sigma^2$ and $X_i\sim N(\mu,\sigma^2)$, prove
+$T_n=\frac{\overline{X}_n-\mu}{S_{1n}/\sqrt{n}} \sim t_{n-1}.$
+(Hint: If $Z \sim N(0,1)$ and $U \sim \chi^2_\nu$ are independent, then
+$T = \frac{Z}{\sqrt{U/\nu}} \sim t_\nu$, which defines the $t$-distribution. Under normality, $\sqrt{n}(\overline{X}_n-\mu)/\sigma \sim N(0,1)$ and $(n-1)S_{1n}^2/\sigma^2\sim \chi^2_{n-1}$, and the two are independent.)
+
+% END QUESTION 2-2.2
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-2.3}
+
+\label{q:lec2-2-3}
+
+% BEGIN QUESTION 2-2.3
+
+(CI for linear function of $\mu$) Suppose we have an i.i.d. random sample of size $n$, $X_1,...,X_n$, from $X \stackrel{iid}{\sim} N(\mu,\sigma^2)$. For constants $a,b$ with $b\neq0$, derive a $100(1-\alpha)\%$ CI for $a+b\mu$ under (i) known $\sigma^2$, (ii) unknown $\sigma^2$.
+
+% END QUESTION 2-2.3
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\clearpage
+
+\section*{Lecture 2-3: Hypothesis Testing}
+
+{\small Source: \texttt{lec2-3.tex}.}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-3.1}
+
+\label{q:lec2-3-1}
+
+% BEGIN QUESTION 2-3.1
+
+(\emph{Test–CI equivalence by inversion})
+For the two–sided level–$\alpha$ $t$ test of $H_0:\mu=\mu_0$, prove that $H_0$ is rejected if and only if $\mu_0$ is not contained in the $100(1-\alpha)\%$ $t$–confidence interval
+\[
+\left[\;\overline{X}-t_{\alpha/2}(n-1)\frac{S}{\sqrt{n}}\;,\;\overline{X}+t_{\alpha/2}(n-1)\frac{S}{\sqrt{n}}\;\right].
+\]
+
+% END QUESTION 2-3.1
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-3.2}
+
+\label{q:lec2-3-2}
+
+% BEGIN QUESTION 2-3.2
+
+(\emph{Invariance to unit changes})
+Let $Y_i=a+bX_i$ with $b\neq0$. Consider testing $H_0:\mu=\mu_0$ using the $t$ statistic based on ${X_i}$, and testing $H_0':\mu_Y=a+b\mu_0$ using the $t$ statistic based on ${Y_i}$. Show that both two–sided tests yield the same rejection decision.
+
+% END QUESTION 2-3.2
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-3.3}
+
+\label{q:lec2-3-3}
+
+% BEGIN QUESTION 2-3.3
+
+(\emph{Power depends on effect size, variance, and $n$})
+Assume known $\sigma$ and test $H_0:\mu=\mu_0$ vs.\ two–sided $H_1$ using the $z$ statistic $Z=\dfrac{\overline{X}-\mu_0}{\sigma/\sqrt{n}}$, rejecting for $|Z|>z_{\alpha/2}$. Derive the power function at $\mu=\mu_0+\delta$ and show: (i) for any fixed $\delta\neq0$, power $\to1$ as $n\to\infty$; (ii) for fixed $n$, power increases in $|\delta|$ and decreases in $\sigma$. (optional)
+
+% END QUESTION 2-3.3
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\clearpage
+
+\section*{Lecture 2-4: Bootstrap Procedures \& Clustering}
+
+{\small Source: \texttt{lec2-4.tex}.}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-4.1}
+
+\label{q:lec2-4-1}
+
+% BEGIN QUESTION 2-4.1
+
+Suppose the sample consists of $G$ independent clusters, each of size $m$ (so $n=mG$). Consider the one–way random–effects model
+\[
+X_{gi}=\mu+u_g+\varepsilon_{gi},\qquad u_g\stackrel{iid}{\sim}(0,\sigma_B^2),\quad \varepsilon_{gi}\stackrel{iid}{\sim}(0,\sigma_W^2),
+\]
+with $u_g\perp \varepsilon_{gi}$. Let $\sigma^2=\sigma_B^2+\sigma_W^2$ and the \emph{intra–cluster correlation} $\rho=\dfrac{\sigma_B^2}{\sigma_B^2+\sigma_W^2}$.
+
+Show that
+\[
+\Var(\overline{X}) = \frac{\sigma^2+(m-1)\sigma_B^2}{mG}
+= \frac{\sigma^2}{mG}\Bigl(1+(m-1)\rho\Bigr).
+\]
+
+% END QUESTION 2-4.1
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\Needspace{5\baselineskip}
+
+\subsection*{Question 2-4.2}
+
+\label{q:lec2-4-2}
+
+% BEGIN QUESTION 2-4.2
+
+Under the same setup with equal cluster sizes, define the cluster means
+\[
+\overline{X}_g=\frac{1}{m}\sum_{i=1}^m X_{gi},\qquad
+\overline{X}=\frac{1}{G}\sum_{g=1}^G\overline{X}_g.
+\]
+Let
+\[
+\text{MSW}=\frac{1}{G(m-1)}\sum_{g=1}^G\sum_{i=1}^m (X_{gi}-\overline{X}_g)^2,\qquad
+\text{MSB}=\frac{m}{G-1}\sum_{g=1}^G(\overline{X}_g-\overline{X})^2.
+\]
+Given that $\E[\text{MSW}]=\sigma_W^2$ and $\E[\text{MSB}]=\sigma_W^2+m\sigma_B^2$ (proofs not required),
+
+\begin{enumerate}
+\item[(a)] Propose consistent estimators for $\sigma_W^2$, $\sigma_B^2$, and the intraclass correlation coefficient (ICC) $\rho=\sigma_B^2/(\sigma_B^2+\sigma_W^2)$.
+\item[(b)] Using your results from (a), derive an estimator $\widehat{\Var}(\overline{X})$ for the sampling variance of the sample mean $\overline{X}$.
+\item[(c)] Show that your estimators $\widehat{\rho}$ and $\widehat{\Var}(\overline{X})$ are consistent as $G\to\infty$ with fixed $m$ (for $\widehat{\Var}(\overline{X})$, which goes to zero, show that $\widehat{\Var}(\overline{X})/\Var(\overline{X})\xrightarrow{p}1$).
+\item[(d)] Construct a $100(1-\alpha)\%$ cluster–adjusted confidence interval for $\mu$.
+\end{enumerate}
+
+% END QUESTION 2-4.2
+
+\begin{groupanswer}
+% Add the group's answer here. Leave this blank until the group has worked on it.
+\vspace{\baselineskip}
+\end{groupanswer}
+
+\end{document}

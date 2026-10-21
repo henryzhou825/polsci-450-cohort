@@ -18,8 +18,11 @@ GitHub's [editing guide](https://docs.github.com/en/repositories/working-with-fi
 - Independent toy examples, synthetic data, and openly licensed examples with attribution.
 - General R and writing-workflow tips with enough detail for someone else to reproduce the issue.
 - Links to public documentation, books, and tutorials, with a sentence about their usefulness.
+- Shared answers to the instructor-authorized questions in [worksheets/main.tex](worksheets/main.tex). Use the stable question identifiers, such as `2-1.1`, when discussing or proposing an answer.
 
-Do not upload or reproduce course materials, including slides, worksheets, textbook scans, recordings, transcripts, assignment prompts, course datasets, exams, solutions, or submission files. This also applies to screenshots, pasted text in issues, and material from previous offerings. Do not turn an assessment question into a public solution by changing names or numbers.
+The repository owner has confirmed instructor permission for public collaboration on the worksheet material documented in [worksheets/README.md](worksheets/README.md). Preserve the original question wording and distinguish group answers from instructor text; correct a transcription error with a source reference.
+
+Other course materials require separate permission before public posting, including slides, worksheets outside that documented scope, textbook scans, recordings, transcripts, assignment prompts, course datasets, exams, solutions, and submission files. This also applies to screenshots, pasted text in issues, and material from previous offerings. Do not turn an assessment question into a public solution by changing names or numbers.
 
 The course syllabus governs collaboration and AI use; a public repository does not expand those permissions. Keep assessment-specific help in course-approved channels. If you are unsure whether material may be shared, leave it out until the instructor gives permission.
 
@@ -33,4 +36,4 @@ The course syllabus governs collaboration and AI use; a public repository does n
 
 Before merging, maintainers should check scope, attribution, clarity, and any runnable examples. Do not merge an explanation known to be wrong just to close a question. Participation is open through issues and pull requests; direct write access is managed separately by the repository owner.
 
-By submitting original work, you agree to make it available under this repository's [MIT license](LICENSE). Only contribute work you have the right to share. External works keep their own terms.
+By submitting original work, including original group answers, you agree to make it available under this repository's [MIT license](LICENSE). Only contribute work you have the right to share. External works keep their own terms; instructor-authored worksheet text is excluded from the MIT license as described in [worksheets/LICENSE.md](worksheets/LICENSE.md).

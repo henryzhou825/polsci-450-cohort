@@ -1,0 +1,35 @@
+# Local system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# R session state and local libraries
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Credentials and local-only work
+.env
+.env.*
+.Renviron
+*.pem
+*.key
+/private/
+/local/
+
+# Common recording and course-document formats; link to public originals.
+*.pdf
+*.m4a
+*.mp3
+*.mp4
+*.wav
+*.mov
+
+# Generated output
+_site/
+_book/
+.quarto/
